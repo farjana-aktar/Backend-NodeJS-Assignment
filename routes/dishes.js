@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 router.use(express.json());
 
-const dishesRoutes = [
+const dishes = [
   { id: 1, name: "Fried Rice" },
   { id: 2, name: "Pizza" },
   { id: 3, name: "Burger" },
