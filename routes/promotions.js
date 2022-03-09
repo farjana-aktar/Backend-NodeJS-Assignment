@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 router.use(express.json());
 
-const promotions = [
+const promotionsRoute = [
   { id: 1, name: "10% Discount on Fried Rice" },
   { id: 3, name: "Buy 1, Get 1 free on Burger" },
   { id: 4, name: "Order 2 parcel and get 1 parcel free on Pasta" },
