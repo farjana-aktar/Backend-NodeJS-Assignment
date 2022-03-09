@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 router.use(express.json());
 
-const leaders = [
+const leadersRoute = [
   { id: 1, name: "Farjana" },
   { id: 2, name: "Adrita" },
   { id: 3, name: "Chaity" },
